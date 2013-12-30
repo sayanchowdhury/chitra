@@ -1,6 +1,6 @@
 import os
 import sys
-#import Image
+import Image
 import filecmp
 import shutil
 
