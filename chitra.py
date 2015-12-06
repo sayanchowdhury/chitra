@@ -28,8 +28,8 @@ class chitra:
 
   def check_images(self):
     length = len(self.image_list)
-    for i in range(0,length-1):
-      for j in range(i+1,length):
+    for i in xrange(0,length-1):
+      for j in xrange(i+1,length):
 	if len(self.image_list)==2:
 	  print 'Checking',self.image_list[i],'and',self.image_list[j]
 	  self.check_two(length)
